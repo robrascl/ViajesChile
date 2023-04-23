@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+navbar {
+    z-index: 2;
+}
+
+section {
+    background-color: #000000;
+}
+.parrafos {
+    color:aliceblue;
+    text-align: justify;
+}
+
+.m-barra {
+    background-color:rgb(88, 133, 216) ;
+}
