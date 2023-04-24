@@ -25,7 +25,7 @@
     <!-- font-family: 'Roboto', sans-serif; -->
     <!------------------->
     
-    <meta name="author" content="Rodrigo Bravo">
+    <meta name="author" content="Rodrigo Bravo - 2023">
 
     <title>Viajes Chile</title>
 </head>
@@ -35,19 +35,56 @@
    <div class="container">
 
     <!-- BARRA DE MENU -->
-    <nav class="navbar bg-transparent fixed-top ">
+    <!-- <nav class="navbar bg-transparent fixed-top ">
 
         <div class="container">
+
           <a class="navbar-brand text-white" href="#">
             <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Viajes Chile
           </a>
+
         </div>
 
-    </nav> <!--fin menu-->
+    </nav> -->
+    <!--fin menu-->
 
+<!-- prueba NAV BAR -->
+<nav class="navbar navbar-expand-lg bg-transparent fixed-top ">
 
-   </div>
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">
+            <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Viajes Chile
+          </a>
+
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <div class="collapse navbar-collapse" id="navbarText">
+
+        <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-light active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white " href="#q-somos">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white " href="#destacados">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white " href="#contacto">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- FIN PRUEBA -->
+
+</div>
    
     <!-- CARRUSEL -->
     <div id="carouselExampleAutoplaying " class="carousel slide" data-bs-ride="carousel">
@@ -75,67 +112,76 @@
     </div>
     <!--fin carrusel-->
 
+
+    <!-- quienes Somos -->
     <section class="container-fluid">
-        <h4 class="text-center text-white">¿QUIENES SOMOS?</h4>
+        <div class="container">
 
-        <div class="row">
-            <div class="col-4">
-                <div class="m-barra text-center">
-                    <i class="fa-solid fa-plane" style="color: #feffff;"></i>
-                </div>
-                
-                <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div  class="col-4">
+            <h4 class="text-center text-white n-seccion" id="q-somos">¿QUIENES SOMOS?</h4>
 
-                <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="m-barra text-center">
-                    <i class="fa-solid fa-mountain" style="color: #feffff;"></i>
+            <div class="row">
+                <div class="col-4">
+                    <div class="m-barra text-center">
+                        <i class="fa-solid fa-plane fa-2x" style="color: #feffff;"></i>
+                    </div>
+                    
+                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div  class="col-4">
+    
+                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="m-barra text-center">
+                        <i class="fa-solid fa-mountain fa-2x" style="color: #feffff;"></i>
+                    </div>
+                </div>
+                <div  class="col-4">
+                    <div class="m-barra text-center">
+                        <i class="fa-solid fa-route fa-2x" style="color: #feffff;"></i>
+                    </div>
+                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div  class="col-4">
-                <div class="m-barra text-center">
-                    <i class="fa-solid fa-route" style="color: #feffff;"></i>
-                </div>
-                <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+
         </div>
     </section>
+    <!-- fin quienes Somos -->
 
+    <!-- DESTACADOS -->
     <section  class="container-fluid">
-        <h4 class="text-center text-white">DESTACADOS</h4>
-        <div class="row">
-            <div class="col-4">
-                <div class="card" ">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-4">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
+        <div class="container">
+
+            <h4 class="text-center text-white n-seccion" id="destacados">DESTACADOS</h4>
+            <div class="row">
+
+                <div class="col-3">
+                    <div class="card"  >
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
                         <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
+
+                <div class="col-3">
+                    <div class="card">
                         <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
+
+                <div class="col-3">
+                    <div class="card">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -143,10 +189,65 @@
                       </div>
                 </div>
             </div>
+    
+
+
         </div>
-
-
     </section>
+    <!--FIN DESTACADOS-->
+
+
+
+    <!-- formulario -->
+    <section class="container-fluid">
+        <div class="container">
+            <h4 class="text-center text-white n-seccion" id="contacto"> CONTACTO</h4>
+            <hr style=" color: #feffff;">
+
+        
+            <form class="py-5">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-white-50 fw-bold">Nombre</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1 " aria-describedby="emailHelp" placeholder="Nombre">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label  text-white-50 fw-bold">Asunto</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
+                </div>
+
+                <div class="mb-3">
+                  <label for="Mensaje" class="form-label text-white-50  fw-bold" >Mensaje</label>
+                  <textarea type="text" class="form-control" rows="7" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+        
+                <div class="d-grid gap-2 d-md-flex  justify-content-md-start" >
+                  <button type="submit" class="btn btn-primary" style="background-color:#17A2B8 ;">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- fin formulario -->
+    <!--FOOTER  -->
+    <footer class="container-fluid m-barra">
+        <div class="container">
+            <div class="row pt-4 pb-4">
+                <div class="col-lg-6 text-center">
+                    <a class="navbar-brand text-white" href="#">
+                        <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            VIAJES CHILE
+                      </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fa-brands fa-square-github fa-2x ms-3 iconos"></i>
+                    <i class="fa-brands fa-linkedin fa-2x ms-3  iconos"></i>
+                    <i class="fa-brands fa-square-twitter fa-2x ms-3  iconos"></i>
+                    <i class="fa-brands fa-square-facebook fa-2x ms-3  iconos" ></i>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 

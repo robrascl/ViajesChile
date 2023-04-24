@@ -3,6 +3,11 @@
     padding: 0;
     border: 0;
     font-family: 'Roboto', sans-serif;
+
+}
+
+.fondo {
+    background-color: #000000;
 }
 
 navbar {
@@ -12,11 +17,27 @@ navbar {
 section {
     background-color: #000000;
 }
+
+
+/* nombre de cada seccion */
+.n-seccion {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
 .parrafos {
     color:aliceblue;
     text-align: justify;
 }
 
+.card-img-top {
+    height: 173px;
+}
 .m-barra {
-    background-color:rgb(88, 133, 216) ;
+    background-color:#17A2B8
+}
+
+.iconos {
+    color: #feffff;
+    
 }
