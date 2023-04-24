@@ -45,3 +45,7 @@ section {
     color: #feffff;
     
 }
+
+#oculto {
+    display: none;
+}
